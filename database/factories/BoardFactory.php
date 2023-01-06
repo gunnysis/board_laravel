@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BoardFactory extends Factory
 {
-    public $table = 'board';
+    // public $table = 'board';
     /**
      * Define the model's default state.
      *
@@ -17,7 +17,7 @@ class BoardFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'title' => $this->faker->title(),
-            'content' => $this->faker->text()
+            'content' => $this->faker->text(),
         ];
     }
 }

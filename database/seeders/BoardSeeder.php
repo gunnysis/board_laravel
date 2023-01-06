@@ -18,7 +18,7 @@ class BoardSeeder extends Seeder
         for($i=0;$i<10;$i++){
             DB::table('board')->insert([
                 'name' => Str::random(10),
-                'title' => Str::random(10),
+                'title' => Str::random(50),
                 'content' => Str::random(100),
             ]);
         }

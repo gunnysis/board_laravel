@@ -14,8 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        board::factory()
-            ->count(50)
-            ->create();
+        board::factory()->count(50)->create();
     }
 }
